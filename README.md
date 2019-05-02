@@ -6,6 +6,16 @@ Learn more about retrospectives at [funretrospectives.com](http://funretrospecti
 [![Build](https://travis-ci.org/funretro/distributed.svg?branch=master)](https://travis-ci.org/funretro/distributed)
 <a href="https://codeclimate.com/github/funretro/distributed"><img src="https://codeclimate.com/github/glauberramos/fireideaz/badges/gpa.svg" /></a>&nbsp;[![devDependency Status](https://david-dm.org/funretro/distributed/dev-status.svg)](https://david-dm.org/funretro/distributed#info=devDependencies)
 
+## How to setup local environment with Docker
+
+1. Clone the repository.
+2. Create an account at firebase and update js/vendor/firebaseInitialization.js.
+3. Enable sign-up using Email/Password for your project.
+4. Create a database and enable read and write in Realtime database (not Firebase).
+5. $ docker build -t rekotan/funretro .
+6. $ docker-compose up
+7. Go to http://localhost:8080
+
 ## How to setup local environment
 
 1. Clone the repository

@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mysql:
+    image: rekotan/funretro
+    container_name: funretro
+    ports:
+      - "8080:4000"
